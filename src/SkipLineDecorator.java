@@ -1,6 +1,6 @@
-class SkipLineDecorator extends TicketDecorator {
+class PriorityAccessDecorator  extends TicketDecorator {
 
-    public SkipLineDecorator(Ticket ticket, int count) {
+    public PriorityAccessDecorator (Ticket ticket, int count) {
         super(ticket);
         this.ticket.price += 50 * count;
     }
